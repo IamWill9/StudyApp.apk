@@ -12,8 +12,6 @@ pip install kivy pillow matplotlib
 python main.py
 Questions are loaded from data/sc-200.json (a dict of topics is also supported and flattened).
 
-Best run in pydroid
-
 Android (Buildozer)
 Ensure buildozer.spec includes Python 3, Kivy, Pillow, Matplotlib; add your Images/ and data/ resources.
 Use resource_add_path/resource_find to bundle images (already wired).
@@ -22,3 +20,6 @@ Multiple-choice: answer may be letters (e.g., ["A","C"]), letter+punct (e.g., ["
 Yes/No multi: if options are just Yes/No and multiple are expected, the screen shows indexed Yes/No groups and compares positions.
 Non-Commercial License (summary)
 Use, modify, and share for non-commercial purposes only. Include attribution and this notice in distributions. See the main README for the full text.
+
+
+I encountered prblems trying to run the APK but runs fine in pydroid 
